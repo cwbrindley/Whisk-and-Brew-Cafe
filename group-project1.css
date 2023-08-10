@@ -1,0 +1,79 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  header {
+    background-color: #D8A47F;
+    color: black;
+    padding: 20px 0;
+  }
+
+
+
+.name {
+    font-family: 'Aclonica';
+    font-size: medium;
+}
+  
+nav {
+    background-color: #DF3B57;
+    padding: 40px;
+}
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    color:white;
+    text-decoration: none;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+  }
+  
+  .about {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .image {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
